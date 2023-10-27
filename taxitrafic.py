@@ -37,9 +37,9 @@ class Functions(Trafic):
     def getFunctions(self):
 
         if self.a == 1:
-            child = 'С ребёнком'
+            print('С ребёнком')
         else:
-            child = 'Без ребёнка'
+            print('Без ребёнка')
 
         if self.b == 1:
             print('С багажом')
